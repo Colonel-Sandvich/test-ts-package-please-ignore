@@ -1,0 +1,16 @@
+{
+  "name": "test-ts-package-please-ignore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts"
+  },
+  "keywords": [],
+  "author": "Colonel-Sandvich",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
